@@ -13,7 +13,7 @@ import com.mandrilau.ball_bonker.entities.Paddle
 import com.mandrilau.ball_bonker.managers.CollisionManager
 import com.mandrilau.ball_bonker.managers.GameStateManager
 
-class BallBonker : ApplicationAdapter() {
+class BallBonkerGame : ApplicationAdapter() {
     private lateinit var batch: SpriteBatch
     private lateinit var font: BitmapFont
 
